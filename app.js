@@ -15,9 +15,9 @@ const { DeitiesRouter } = require('./routes')
 app.use('/deities', DeitiesRouter)
 
 app.use((req, res) => { 
-  const status = 404;
-  const message = `Could not ${req.method} ${req.path}`;
-  res.status(status).json({ status, message });
+  const status = 404
+  const message = `Could not ${req.method} ${req.path}`
+  res.status(status).json({ status, message })
 })
 
 app.use((err, req, res, next) => {
