@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 
 const { DeitiesRouter } = require('./routes')
 app.use('/deities', DeitiesRouter)
-
+ 
 app.use((req, res) => { 
   const status = 404
   const message = `Could not ${req.method} ${req.path}`
