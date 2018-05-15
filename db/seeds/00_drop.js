@@ -4,5 +4,4 @@ exports.seed = function(knex, Promise) {
     .then(() => knex('pantheons').del())
     .then(() => knex('domains').del())
     .then(() => knex('alignments').del())
-
 }
