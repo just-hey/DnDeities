@@ -1,13 +1,18 @@
 
 exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('pantheons').del()
     .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
-      ]);
-    });
-};
+      return knex('pantheons').insert([
+        {id: 1, name: 'The Forgotten Realms'},
+        {id: 2, name: 'Celtic'},
+        {id: 3, name: 'Greek'},
+        {id: 4, name: 'Egyptian'},
+        {id: 5, name: 'Norse'}
+      ])
+    })
+    .then(() => {
+      return knex.raw(
+        `SELECT setval('pantheons_id_seq', (SELECT MAX(id) FROM pantheons));`
+      )
+    })
+}
