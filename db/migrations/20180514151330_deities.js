@@ -11,6 +11,7 @@ exports.up = function(knex, Promise) {
       table.string('symbol').notNullable().defaultTo('')
       table.integer('pantheon').notNullable()
       table.foreign('pantheon').references('pantheons.id')
+      table.string('gender').notNullable().defaultTo('')      
       table.timestamps(true, true)
     })
   }
