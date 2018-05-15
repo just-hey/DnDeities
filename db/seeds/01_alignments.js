@@ -1,13 +1,22 @@
 
 exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('alignments').del()
     .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
-      ]);
-    });
-};
+      return knex('alignments').insert([
+        {id: 1, name: 'Lawful Good'},
+        {id: 2, name: 'Neutral Good'},
+        {id: 3, name: 'Chaotic Good'},
+        {id: 4, name: 'Lawful Neutral'},
+        {id: 5, name: 'True Neutral'},
+        {id: 6, name: 'Chaotic Neutral'},
+        {id: 7, name: 'Lawful Evil'},
+        {id: 8, name: 'Neutral Evil'},
+        {id: 9, name: 'Chaotic Evil'}
+      ])
+    })
+    .then(() => {
+      return knex.raw(
+        `SELECT setval('alignments_id_seq', (SELECT MAX(id) FROM alignments));`
+      )
+    })
+}
