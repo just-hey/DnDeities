@@ -1,13 +1,87 @@
-
 exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('deities').del()
     .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
-      ]);
-    });
-};
+      return knex('deities').insert([
+{id: 1, name: 'Auril', of: 'goddess of winter',	alignment: 8, level: '', 
+active: true, url: '', symbol: 'Six-pointed snowflake', pantheon: 1, gender: 'female'},
+{id: 2, name: 'Azuth', of: 'god of wizards',	alignment: 4, level: '', 
+active: true, url: '', symbol: 'Left hand pointing upward, outlined in fire', pantheon: 1, gender: 'male'},
+{id: 3, name: 'Bane', of: 'god of tyranny',	alignment: 7, level: '', 
+active: true, url: '', symbol: 'Upright black right hand, thumb and fingers together', pantheon: 1, gender: 'male'},
+{id: 4, name: 'Beshaba', of: 'goddess of misfortune',	alignment: 9, level: '', 
+active: true, url: '', symbol: 'Black antlers', pantheon: 1, gender: 'female'},
+{id: 5, name: 'Bhaal', of: 'god of murder',	alignment: 8, level: '', 
+active: true, url: '', symbol: 'Skull surrounded by a ring of blood droplets', pantheon: 1, gender: 'male'},
+{id: 6, name: 'Chauntea', of: 'goddess of agriculture',	alignment: 2, level: '', 
+active: true, url: '', symbol: 'Sheaf of grain or a blooming rose over grain', pantheon: 1, gender: 'female'},
+{id: 7, name: 'Cyric', of: 'god of lies',	alignment: 9, level: '', 
+active: true, url: '', symbol: 'White jawless skull on black or purple sunburst', pantheon: 1, gender: 'male'},
+{id: 8, name: 'Deneir', of: 'god of writing',	alignment: 2, level: '', 
+active: true, url: '', symbol: 'Lit candle above an open eye', pantheon: 1, gender: 'male'},
+{id: 9, name: 'Eldath', of: 'goddess of peace',	alignment: 2, level: '', 
+active: true, url: '', symbol: 'Nature	Waterfall plunging into still pool', pantheon: 1, gender: 'female'},
+{id: 10, name: 'Gond', of: 'god of craft',	alignment: 5, level: '', 
+active: true, url: '', symbol:	'Toothed cog with four spokes', pantheon: 1, gender: 'male'},
+{id: 11, name: 'Helm', of: 'god of protection',	alignment: 4, level: '', 
+active: true, url: '', symbol: 'Staring eye on upright left gauntlet', pantheon: 1, gender: 'male'},
+{id: 12, name: 'Ilmater', of: 'god of endurance',	alignment: 1, level: '', 
+active: true, url: '', symbol: 'Hands bound at the wrist with red cord', pantheon: 1, gender: 'male'},
+{id: 13, name: 'Kelemvor', of: 'god of the dead',	alignment: 4, level: '', 
+active: true, url: '', symbol:	'Upright skeletal arm holding balanced scales', pantheon: 1, gender: 'male'},
+{id: 14, name: 'Lathander', of: 'god of birth and renewal',	alignment: 2, level: '', 
+active: true, url: '', symbol: 'Road traveling into a sunrise', pantheon: 1, gender: 'male'},
+{id: 15, name: 'Leira', of: 'goddess of illusion',	alignment: 6, level: '', 
+active: true, url: '', symbol: 'Point-down triangle containing a swirl of mist', pantheon: 1, gender: 'female'},
+{id: 16, name: 'Lliira', of: 'goddess of joy',	alignment: 3, level: '', 
+active: true, url: '', symbol: 'Triangle of three six-pointed stars',	pantheon: 1, gender: 'female'},
+{id: 17, name: 'Loviatar', of: 'goddess of pain',	alignment: 7, level: '', 
+active: true, url: '', symbol:	'Nine-tailed barbed scourge', pantheon: 1, gender: 'female'},
+{id: 18, name: 'Malar', of: 'god of the hunt',	alignment: 9, level: '', 
+active: true, url: '', symbol: 'Clawed paw', pantheon: 1, gender: 'male'},
+{id: 19, name: 'Mask', of: 'god of thieves',	alignment: 6, level: '', 
+active: true, url: '', symbol: 'Black mask', pantheon: 1, gender: 'male'},
+{id: 20, name: 'Mielikki', of: 'goddess of forests',	alignment: 2, level: '', 
+active: true, url: '', symbol: 'Unicorn’s head', pantheon: 1, gender: 'female'},
+{id: 21, name: 'Milil', of: 'god of poetry and song',	alignment: 2, level: '', 
+active: true, url: '', symbol: 'Five-stringed harp made of leaves', pantheon: 1, gender: 'male'},
+{id: 22, name: 'Myrkul', of: 'god of death',	alignment: 8, level: '', 
+active: true, url: '', symbol: 'White human skull', pantheon: 1, gender: 'male'},
+{id: 23, name: 'Mystra', of: 'goddess of magic',	alignment: 2, level: '', 
+active: true, url: '', symbol: 'Circle of seven stars, or nine stars encircling a flowing red mist, or a single star', pantheon: 1, gender: 'female'},
+{id: 24, name: 'Oghma', of: 'god of knowledge',	alignment: 5, level: '', 
+active: true, url: '', symbol: 'Blank scroll', pantheon: 1, gender: 'male'},
+{id: 25, name: 'Savras', of: 'god of divination and fate',	alignment: 4, level: '', 
+active: true, url: '', symbol: 'Crystal ball containing many kinds of eyes', pantheon: 1, gender: 'male'},
+{id: 26, name: 'Selûne', of: 'goddess of the moon',	alignment: 3, level: '', 
+active: true, url: '', symbol: 'Pair of eyes surrounded by seven stars', pantheon: 1, gender: 'female'},
+{id: 27, name: 'Shar', of: 'goddess of darkness and loss',	alignment: 8, level: '', 
+active: true, url: '', symbol: 'Black disk encircled with a border', pantheon: 1, gender: 'female'},
+{id: 28, name: 'Silvanus', of: 'god of wild nature',	alignment: 5, level: '', 
+active: true, url: '', symbol: 'Oak leaf', pantheon: 1, gender: 'male'},
+{id: 29, name: 'Sune', of: 'goddess of love and beauty',	alignment: 3, level: '', 
+active: true, url: '', symbol: 'Face of a beautiful red-haired woman', pantheon: 1, gender: 'female'},
+{id: 30, name: 'Talona', of: 'goddess of disease and poison',	alignment: 9, level: '', 
+active: true, url: '', symbol: 'Three teardrops on a triangle', pantheon: 1, gender: 'female'},
+{id: 31, name: 'Talos', of: 'god of storms',	alignment: 9, level: '', 
+active: true, url: '', symbol:	'Three lightning bolts radiating from a central point', pantheon: 1, gender: 'male'},
+{id: 32, name: 'Tempus', of: 'god of war',	alignment: 5, level: '', 
+active: true, url: '', symbol: 'Upright flaming sword',	pantheon: 1, gender: 'male'},
+{id: 33, name: 'Torm', of: 'god of courage and self-sacrifice',	alignment: 1, level: '', 
+active: true, url: '', symbol: 'White right gauntlet', pantheon: 1, gender: 'male'},
+{id: 34, name: 'Tymora', of: 'goddess of good fortune',	alignment: 3, level: '', 
+active: true, url: '', symbol: 'Face-up coin', pantheon: 1, gender: 'female'},
+{id: 35, name: 'Tyr', of: 'god of justice',	alignment: 1, level: '', 
+active: true, url: '', symbol: 'Balanced scales resting on a warhammer', pantheon: 1, gender: 'male'},
+{id: 36, name: 'Umberlee', of: 'goddess of the sea',	alignment: 9, level: '', 
+active: true, url: '', symbol:	'Wave curling left and right',  pantheon: 1, gender: 'female'},
+{id: 37, name: 'Waukeen', of: 'goddess of trade',	alignment: 5, level: '', 
+active: true, url: '', symbol: 'Upright coin with Waukeen’s profile facing left',	pantheon: 1, gender: 'female'}
+        
+      ])
+    })
+    .then(() => {
+      return knex.raw(
+        `SELECT setval('deities_id_seq', (SELECT MAX(id) FROM deities));`
+      )
+    })
+}
