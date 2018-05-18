@@ -46,6 +46,30 @@ exports.seed = function(knex, Promise) {
         {id: 42, deity_id: 36, domain_id: 88},
         {id: 43, deity_id: 37, domain_id: 49},
         {id: 44, deity_id: 37, domain_id: 94},
+        {id: 45, deity_id: 38, domain_id: 61},
+        {id: 46, deity_id: 38, domain_id: 94},
+        {id: 47, deity_id: 39, domain_id: 19},
+        {id: 48, deity_id: 39, domain_id: 51},
+        {id: 49, deity_id: 40, domain_id: 52},
+        {id: 50, deity_id: 41, domain_id: 51},
+        {id: 51, deity_id: 42, domain_id: 51},
+        {id: 52, deity_id: 43, domain_id: 61},
+        {id: 53, deity_id: 44, domain_id: 49},
+        {id: 54, deity_id: 44, domain_id: 51},
+        {id: 55, deity_id: 45, domain_id: 49},
+        {id: 56, deity_id: 45, domain_id: 51},
+        {id: 57, deity_id: 46, domain_id: 61},
+        {id: 58, deity_id: 46, domain_id: 88},
+        {id: 59, deity_id: 47, domain_id: 49},
+        {id: 60, deity_id: 48, domain_id: 98},
+        {id: 61, deity_id: 49, domain_id: 98},
+        {id: 62, deity_id: 50, domain_id: 49},
+        {id: 63, deity_id: 51, domain_id: 61},
+
+        {id: 64, deity_id: 00, domain_id: 00},
+        {id: 65, deity_id: 00, domain_id: 00},
+        {id: 66, deity_id: 000, domain_id: 00},
+
       ])
     })
     .then(() => {
