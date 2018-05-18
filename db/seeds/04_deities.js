@@ -75,8 +75,36 @@ active: true, url: '', symbol: 'Balanced scales resting on a warhammer', pantheo
 {id: 36, name: 'Umberlee', of: 'goddess of the sea',	alignment: 9, level: '', 
 active: true, url: '', symbol:	'Wave curling left and right',  pantheon: 1, gender: 'female'},
 {id: 37, name: 'Waukeen', of: 'goddess of trade',	alignment: 5, level: '', 
-active: true, url: '', symbol: 'Upright coin with Waukeen’s profile facing left',	pantheon: 1, gender: 'female'}
-        
+active: true, url: '', symbol: 'Upright coin with Waukeen’s profile facing left',	pantheon: 1, gender: 'female'},
+{id: 38, name: 'The Daghdha', of: 'god of weather and crops', alignment: 3, level: '',
+ active: true, url: '', symbol: 'Bubbling cauldron or shield', pantheon: 2, gender: 'male'},
+{id: 39, name: 'Arawn', of: 'god of life and death', alignment: 8, level: '',
+ active: true, url: '', symbol: 'Black star on gray background', pantheon: 2, gender: 'male'},
+{id: 40, name: 'Belenus', of: 'god of sun, light, and warmth', alignment: 2, level: '',
+ active: true, url: '', symbol: 'Solar disk and standing stones', pantheon: 2, gender: 'male'},
+{id: 41, name: 'Brigantia', of: 'goddess of rivers and livestock', alignment: 2, level: '',
+ active: true, url: '', symbol: 'Footbridge', pantheon: 2, gender: 'female'},
+{id: 42, name: 'Diancecht', of: 'god of medicine and healing', alignment: 1, level: '',
+ active: true, url: '', symbol: 'Crossed oak and mistletoe branches', pantheon: 2, gender: 'male'},
+{id: 43, name: 'Dunatis', of: 'god of mountains and peaks', alignment: 5, level: '',
+ active: true, url: '', symbol: 'Red sun-capped mountain peak', pantheon: 2, gender: 'male'},
+{id: 44, name: 'Goibhniu', of: 'god of smiths and healing', alignment: 2, level: '',
+ active: true, url: '', symbol: 'Giant mallet over sword', pantheon: 2, gender: 'male'},
+{id: 45, name: 'Lugh', of: 'god of arts, travel, and commerce', alignment: 6, level: '',
+ active: true, url: '', symbol: 'Pair of long hands', pantheon: 2, gender: 'male'},
+{id: 46, name: 'Manannan mac Lir', of: 'god of oceans and sea creatures', alignment: 4, level: '',
+ active: true, url: '', symbol: 'Wave of white water on green', pantheon: 2, gender: 'male'},
+{id: 47, name: 'Math Mathonwy', of: 'god of magic', alignment: 8, level: '',
+ active: true, url: '', symbol: 'Staff', pantheon: 2, gender: 'male'},
+{id: 48, name: 'Morrigan', of: 'goddess of battle', alignment: 9, level: '',
+ active: true, url: '', symbol: 'Two crossed spears', pantheon: 2, gender: 'female'},
+{id: 49, name: 'Nuada', of: 'god of war and warriors', alignment: 5, level: '',
+ active: true, url: '', symbol: 'Silver hand on black background', pantheon: 2, gender: 'male'},
+{id: 50, name: 'Oghma', of: 'god of speech and writing', alignment: 2, level: '',
+ active: true, url: '', symbol: 'Unfurled scroll', pantheon: 2, gender: 'male'},
+{id: 51, name: 'Silvanus', of: 'god of nature and forests', alignment: 5, level: '',
+ active: true, url: '', symbol: 'Summer oak tree', pantheon: 2, gender: 'male'},
+  
       ])
     })
     .then(() => {
