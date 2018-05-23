@@ -110,7 +110,14 @@ exports.seed = function(knex, Promise) {
 {id: 105, name: 'Boccob', of: 'god of Uncaring', alignment: 5, level: 'Greater', active: true, url: '', symbol: 'Eye in Pentagram', pantheon: 6, gender: 'male'},
 {id: 106, name: 'Ehlonna', of: 'goddess of the Forests', alignment: 2, level: 'Lesser', active: true, url: '', symbol: 'Unicorn horn', pantheon: 6, gender: 'female'},
 {id: 107, name: 'Fharlanghn', of: 'god of travellers and adventurers, the Dweller on the Horizon.', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'Disc with a curved line across it (the horizon).', pantheon: 6, gender: 'male'},
-{id: 108, name: 'Geshtai', of: 'goddess (daughter) or the Oasis', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'A water spout', pantheon: 6, gender: 'male'},
+{id: 108, name: 'Geshtai', of: 'goddess (daughter) or the Oasis', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'A water spout', pantheon: 6, gender: 'female'},
+{id: 109, name: 'Heironeous', of: 'god of Chivalry, Justice, Honor, War, Daring, and Valor. (aka: Heironeous the Invincible)', alignment: 1, level: 'Lesser', active: true, url: '', symbol: 'Silver lightning bolt, often clutched in a fist.', pantheon: 6, gender: 'male'},
+{id: 110, name: 'Hextor', of: 'god of War, Discord, and Massacres. (aka: Scourge of Battle, Champion of Evil, Herald of Hell)', alignment: 7, level: 'Lesser', active: true, url: '', symbol: 'Fist holding six red arrows facing downward in a fan.', pantheon: 6, gender: 'male'},
+{id: 111, name: 'Iuz the Old', of: 'demigod of Deceit, Evil, Oppression, Pain, and Wickedness.', alignment: 9, level: 'Demigod', active: true, url: '', symbol: 'Grinning skull', pantheon: 6, gender: 'male'},
+{id: 112, name: 'Kord', of: 'god of strength (aka: Kord the Brawler)', alignment: 3, level: 'Greater', active: true, url: '', symbol: 'Amulet with a white-gauntleted fist', pantheon: 6, gender: 'male'},
+{id: 113, name: 'Nerull', of: 'god of death', alignment: 8, level: 'Greater', active: true, url: '', symbol: 'Scythe and skull', pantheon: 6, gender: 'male'},
+{id: 114, name: 'Norebo', of: 'god of Chance (god of Luck, Gambling, and Risks)', alignment: 6, level: 'Lesser', active: true, url: '', symbol: 'Pair of 8-sided dice', pantheon: 6, gender: 'male'},
+{id: 115, name: 'Obad-Hai', of: 'god of nature. (aka: Obad-Hai the Shalm)', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'Oak leaf and acorn.', pantheon: 6, gender: 'male'},
 
       ])
     })
