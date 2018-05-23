@@ -139,6 +139,35 @@ exports.seed = function(knex, Promise) {
         {id: 135, deity_id: 103, domain_id: 49},
         {id: 136, deity_id: 103, domain_id: 98},
         {id: 137, deity_id: 104, domain_id: 61},
+        
+        {id: 138, deity_id: 105, domain_id: 104},
+        {id: 139, deity_id: 105, domain_id: 56},
+        {id: 140, deity_id: 105, domain_id: 49},
+        {id: 141, deity_id: 105, domain_id: 105},
+        {id: 142, deity_id: 106, domain_id: 2},
+        {id: 143, deity_id: 106, domain_id: 61},
+        {id: 144, deity_id: 106, domain_id: 107},
+        {id: 145, deity_id: 106, domain_id: 108},
+        {id: 146, deity_id: 107, domain_id: 92},
+        {id: 147, deity_id: 107, domain_id: 93},
+
+        {id: 148, deity_id: 108, domain_id: 67},
+        {id: 149, deity_id: 108, domain_id: 93},
+        {id: 150, deity_id: 108, domain_id: 99},
+        {id: 151, deity_id: 108, domain_id: 109},
+
+        {id: 152, deity_id: , domain_id: 104},
+        {id: 153, deity_id: , domain_id: 56},
+        {id: 154, deity_id: , domain_id: 49},
+        {id: 155, deity_id: , domain_id: 105},
+        {id: 156, deity_id: , domain_id: 104},
+        {id: 157, deity_id: , domain_id: 56},
+        {id: 158, deity_id: , domain_id: 49},
+        {id: 159, deity_id: , domain_id: 105},
+        {id: 160, deity_id: , domain_id: 104},
+        {id: 161, deity_id: , domain_id: 56},
+        {id: 162, deity_id: , domain_id: 49},
+        {id: 163, deity_id: , domain_id: 105}
 
       ])
     })
