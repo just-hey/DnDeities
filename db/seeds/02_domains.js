@@ -104,7 +104,13 @@ exports.seed = function(knex, Promise) {
         {id: 100, name: 'Watery death'},
         {id: 101, name: 'Wilderness'},
         {id: 102, name: 'Winter'},
-        {id: 103, name: 'Wrath'}
+        {id: 103, name: 'Wrath'},
+        {id: 104, name: 'Neutrality'},
+        {id: 105, name: 'Foresight'},
+        {id: 106, name: 'Forests'},
+        {id: 107, name: 'Fertility'},
+        {id: 108, name: 'Hunting'},
+        {id: 109, name: 'Weather'}
       ])
     })
     .then(() => {
