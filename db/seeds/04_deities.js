@@ -107,7 +107,11 @@ exports.seed = function(knex, Promise) {
 {id: 103, name: 'Tyr', of: 'god of courage and strategy', alignment: 4, level: '', active: true, url: '', symbol: 'Sword', pantheon: 5, gender: 'male'},
 {id: 104, name: 'Uller', of: 'god of hunting and winter', alignment: 6, level: '', active: true, url: '', symbol: 'Longbow', pantheon: 5, gender: 'male'},
 
-  
+{id: 105, name: 'Boccob', of: 'god of Uncaring', alignment: 5, level: 'Greater', active: true, url: '', symbol: 'Eye in Pentagram', pantheon: 6, gender: 'male'},
+{id: 106, name: 'Ehlonna', of: 'goddess of the Forests', alignment: 2, level: 'Lesser', active: true, url: '', symbol: 'Unicorn horn', pantheon: 6, gender: 'female'},
+{id: 107, name: 'Fharlanghn', of: 'god of travellers and adventurers, the Dweller on the Horizon.', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'Disc with a curved line across it (the horizon).', pantheon: 6, gender: 'male'},
+{id: 108, name: 'Geshtai', of: 'goddess (daughter) or the Oasis', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'A water spout', pantheon: 6, gender: 'male'},
+
       ])
     })
     .then(() => {
