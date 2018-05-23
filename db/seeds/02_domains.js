@@ -110,7 +110,18 @@ exports.seed = function(knex, Promise) {
         {id: 106, name: 'Forests'},
         {id: 107, name: 'Fertility'},
         {id: 108, name: 'Hunting'},
-        {id: 109, name: 'Weather'}
+        {id: 109, name: 'Weather'},
+        {id: 110, name: 'Chivalry'},
+        {id: 111, name: 'Honor'},
+        {id: 112, name: 'Valor'},
+        {id: 113, name: 'Daring'},
+        {id: 114, name: 'Oppression'},
+        {id: 115, name: 'Deceit'},
+        {id: 116, name: 'Wickedness'},
+        {id: 117, name: 'Conflict'},
+        {id: 118, name: 'Discord'},
+
+
       ])
     })
     .then(() => {
