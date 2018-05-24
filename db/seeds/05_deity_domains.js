@@ -139,7 +139,6 @@ exports.seed = function(knex, Promise) {
         {id: 135, deity_id: 103, domain_id: 49},
         {id: 136, deity_id: 103, domain_id: 98},
         {id: 137, deity_id: 104, domain_id: 61},
-        
         {id: 138, deity_id: 105, domain_id: 104},
         {id: 139, deity_id: 105, domain_id: 56},
         {id: 140, deity_id: 105, domain_id: 49},
@@ -198,12 +197,11 @@ exports.seed = function(knex, Promise) {
         {id: 193, deity_id: 119, domain_id: 19},
         {id: 194, deity_id: 119, domain_id: 50},
         {id: 195, deity_id: 119, domain_id: 56},
-
-        {id: 196, deity_id: , domain_id: },
-        {id: 197, deity_id: , domain_id: },
-        {id: 198, deity_id: , domain_id: },
-        {id: 199, deity_id: , domain_id: },
-        {id: 200, deity_id: , domain_id: },
+        {id: 196, deity_id: 120, domain_id: 10},
+        {id: 197, deity_id: 120, domain_id: 29},
+        {id: 198, deity_id: 120, domain_id: 94},
+        {id: 199, deity_id: 120, domain_id: 98},
+        {id: 200, deity_id: 120, domain_id: 21},
         
 
       ])
