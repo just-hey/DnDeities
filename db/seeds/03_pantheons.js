@@ -7,7 +7,8 @@ exports.seed = function(knex, Promise) {
         {id: 3, name: 'Greek'},
         {id: 4, name: 'Egyptian'},
         {id: 5, name: 'Norse'},
-        {id: 6, name: 'Greyhawk'}
+        {id: 6, name: 'Greyhawk'},
+        {id: 7, name: 'Eberron'},
       ])
     })
     .then(() => {
