@@ -106,7 +106,6 @@ exports.seed = function(knex, Promise) {
 {id: 102, name: 'Thrym', of: 'god of frost giants and cold', alignment: 9, level: '', active: true, url: '', symbol: 'White double-bladed axe', pantheon: 5, gender: 'male'},
 {id: 103, name: 'Tyr', of: 'god of courage and strategy', alignment: 4, level: '', active: true, url: '', symbol: 'Sword', pantheon: 5, gender: 'male'},
 {id: 104, name: 'Uller', of: 'god of hunting and winter', alignment: 6, level: '', active: true, url: '', symbol: 'Longbow', pantheon: 5, gender: 'male'},
-
 {id: 105, name: 'Boccob', of: 'god of Uncaring', alignment: 5, level: 'Greater', active: true, url: '', symbol: 'Eye in Pentagram', pantheon: 6, gender: 'male'},
 {id: 106, name: 'Ehlonna', of: 'goddess of the Forests', alignment: 2, level: 'Lesser', active: true, url: '', symbol: 'Unicorn horn', pantheon: 6, gender: 'female'},
 {id: 107, name: 'Fharlanghn', of: 'god of travellers and adventurers, the Dweller on the Horizon.', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'Disc with a curved line across it (the horizon).', pantheon: 6, gender: 'male'},
@@ -122,6 +121,7 @@ exports.seed = function(knex, Promise) {
 {id: 117, name: 'Procan', of: 'god of seas, sea life, salt, sea weather, and navigation.', alignment: 6, level: 'Greater', active: true, url: '', symbol: 'Trident made of coral and gold cresting a wave', pantheon: 6, gender: 'male'},
 {id: 118, name: 'Saint Cuthbert', of: 'god of retribution', alignment: 1, level: 'Lesser', active: true, url: '', symbol: 'Wooden billet', pantheon: 6, gender: 'male'},
 {id: 119, name: 'Wee Jas', of: 'goddess of death and magic. (aka: Witch Goddess, Ruby Sorceress, Stern Lady, and Death\'s Guardian)', alignment: 7, level: 'Greater', active: true, url: '', symbol: 'Skull lit by a fireball', pantheon: 6, gender: 'female'},
+{id: 120, name: 'Erythnul', of: 'god of hate, envy, malice, panic, ugliness, and slaughter. (aka: The Many)', alignment: 9, level: 'Intermediate', active: true, url: '', symbol: 'Red blood drop, or a bestial mask representing Erythnul\'s changing visage', pantheon: 6, gender: 'male'},
 
 
       ])
