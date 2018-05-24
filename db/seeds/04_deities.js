@@ -118,6 +118,11 @@ exports.seed = function(knex, Promise) {
 {id: 113, name: 'Nerull', of: 'god of death', alignment: 8, level: 'Greater', active: true, url: '', symbol: 'Scythe and skull', pantheon: 6, gender: 'male'},
 {id: 114, name: 'Norebo', of: 'god of Chance (god of Luck, Gambling, and Risks)', alignment: 6, level: 'Lesser', active: true, url: '', symbol: 'Pair of 8-sided dice', pantheon: 6, gender: 'male'},
 {id: 115, name: 'Obad-Hai', of: 'god of nature. (aka: Obad-Hai the Shalm)', alignment: 5, level: 'Lesser', active: true, url: '', symbol: 'Oak leaf and acorn.', pantheon: 6, gender: 'male'},
+{id: 116, name: 'Olidammara', of: 'god of rogues', alignment: 6, level: 'Lesser', active: true, url: '', symbol: 'Laughing mask', pantheon: 6, gender: 'male'},
+{id: 117, name: 'Procan', of: 'god of seas, sea life, salt, sea weather, and navigation.', alignment: 6, level: 'Greater', active: true, url: '', symbol: 'Trident made of coral and gold cresting a wave', pantheon: 6, gender: 'male'},
+{id: 118, name: 'Saint Cuthbert', of: 'god of retribution', alignment: 1, level: 'Lesser', active: true, url: '', symbol: 'Wooden billet', pantheon: 6, gender: 'male'},
+{id: 119, name: 'Wee Jas', of: 'goddess of death and magic. (aka: Witch Goddess, Ruby Sorceress, Stern Lady, and Death\'s Guardian)', alignment: 7, level: 'Greater', active: true, url: '', symbol: 'Skull lit by a fireball', pantheon: 6, gender: 'female'},
+
 
       ])
     })
