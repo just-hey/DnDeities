@@ -123,6 +123,8 @@ exports.seed = function(knex, Promise) {
 {id: 119, name: 'Wee Jas', of: 'goddess of death and magic. (aka: Witch Goddess, Ruby Sorceress, Stern Lady, and Death\'s Guardian)', alignment: 7, level: 'Greater', active: true, url: '', symbol: 'Skull lit by a fireball', pantheon: 6, gender: 'female'},
 {id: 120, name: 'Erythnul', of: 'god of hate, envy, malice, panic, ugliness, and slaughter. (aka: The Many)', alignment: 9, level: 'Intermediate', active: true, url: '', symbol: 'Red blood drop, or a bestial mask representing Erythnul\'s changing visage', pantheon: 6, gender: 'male'},
 
+{id: 121, name: 'Jaela Daran (Spiritual Leader of the Church of the Silver Flame.  aka: the Keeper of the Flame)', of: 'Church of The Silver Flame', alignment: 1, level: 'Religion', active: true, url: '', symbol: 'Silver arrowhead engraved with a stylized flame.', pantheon: 7, gender: 'female'},
+
 
       ])
     })
