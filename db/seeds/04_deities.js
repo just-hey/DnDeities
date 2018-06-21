@@ -124,6 +124,16 @@ exports.seed = function(knex, Promise) {
 {id: 120, name: 'Erythnul', of: 'god of hate, envy, malice, panic, ugliness, and slaughter. (aka: The Many)', alignment: 9, level: 'Intermediate', active: true, url: '', symbol: 'Red blood drop, or a bestial mask representing Erythnul\'s changing visage', pantheon: 6, gender: 'male'},
 
 {id: 121, name: 'Jaela Daran (Spiritual Leader of the Church of the Silver Flame.  aka: the Keeper of the Flame)', of: 'Church of The Silver Flame', alignment: 1, level: 'Religion', active: true, url: '', symbol: 'Silver arrowhead engraved with a stylized flame.', pantheon: 7, gender: 'female'},
+{id: 122, name: 'The Sovereign Host', of: 'Any of the Domains in the Host', alignment: 2, level: '', 
+active: true, url: '', symbol: '', pantheon: 7, gender: 'n/a'},
+{id: 123, name: 'Arawai', of: 'The Sovereign Goddess of Agriculture', alignment: 2, level: '', 
+active: true, url: '', symbol: 'A stalk of wheat, or the Octogram in bronze and green, representing grains and plant life.', pantheon: 7, gender: 'female'},
+{id: 124, name: 'Aureon', of: 'The Sovereign God of Law and Lore', alignment: 4, level: '', 
+active: true, url: '', symbol: 'An open tome, or the Octogram in shades of black and white, representing both ink on paper and the sharp division between knowledge and ignorance.', pantheon: 7, gender: 'male'},
+{id: 125, name: 'Balinor', of: 'The Sovereign of Horn and Hunt', alignment: 5, level: '', 
+active: true, url: '', symbol: 'A silhouetted pair of antlers, or the Octogram in brown and red, representing the flesh, blood, and fur of beasts.', pantheon: 7, gender: 'male'},
+{id: 126, name: 'Boldrei', of: 'The Sovereign of Hall and Hearth', alignment: 1, level: '', 
+active: true, url: '', symbol: 'A fire in a stone hearth, or the Octogram in orange and gray, representing fire and stone.', pantheon: 7, gender: 'male'},
 
 
       ])
