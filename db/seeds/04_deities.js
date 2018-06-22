@@ -134,6 +134,16 @@ active: true, url: '', symbol: 'An open tome, or the Octogram in shades of black
 active: true, url: '', symbol: 'A silhouetted pair of antlers, or the Octogram in brown and red, representing the flesh, blood, and fur of beasts.', pantheon: 7, gender: 'male'},
 {id: 126, name: 'Boldrei', of: 'The Sovereign of Hall and Hearth', alignment: 1, level: '', 
 active: true, url: '', symbol: 'A fire in a stone hearth, or the Octogram in orange and gray, representing fire and stone.', pantheon: 7, gender: 'male'},
+{id: 127, name: 'Dol Arrah', of: 'The Sovereign of Sun and Sacrifice', alignment: 1, level: '', 
+active: true, url: '', symbol: 'A rising sun, or the Octogram in bright yellow-gold and white, representing light and purity.', pantheon: 7, gender: 'female'},
+{id: 128, name: 'Dol Dorn', of: 'The Sovereign of Strength and Steel', alignment: 3, level: '', 
+active: true, url: '', symbol: 'A longsword crossed over a shield (or just the longsword, if the symbol is drawn on a shield), or the Octogram in red and silver, representing blood and steel.', pantheon: 7, gender: 'male'},
+{id: 129, name: 'Kol Korran', of: 'The Sovereign of World and Wealth', alignment: 5, level: '', 
+active: true, url: '', symbol: 'The Sovereign of World and Wealth.', pantheon: 7, gender: 'male'},
+{id: 130, name: 'Olladra', of: 'The Sovereign of Feast and Fortune', alignment: 2, level: '', 
+active: true, url: '', symbol: 'A domino, or the Octogram in white and dark gray, representing both good fortune and bad. (The pattern on Olladra’s Octogram is reversed from the pattern on Aureon’s to avoid confusion, as the colors are very similar.)', pantheon: 7, gender: 'male'},
+{id: 131, name: 'Onatar', of: 'The Sovereign of Fire and Forge', alignment: 2, level: '', 
+active: true, url: '', symbol: 'Crossed hammer and tongs, or the Octogram in red and orange, representing the different shades of fire.', pantheon: 7, gender: 'male'},
 
 
       ])
