@@ -123,7 +123,9 @@ exports.seed = function(knex, Promise) {
         {id: 119, name: 'Any of the Domains in the Host'},
         {id: 120, name: 'Any of the Domains in the Dark Six'},
         {id: 121, name: 'Passion'},
-        {id: 122, name: 'Shadow'}
+        {id: 122, name: 'Shadow'},
+        {id: 123, name: 'Artifice'},
+        {id: 124, name: 'Necromancer'}
 
       ])
     })
