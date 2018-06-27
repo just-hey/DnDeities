@@ -120,7 +120,10 @@ exports.seed = function(knex, Promise) {
         {id: 116, name: 'Wickedness'},
         {id: 117, name: 'Conflict'},
         {id: 118, name: 'Discord'},
-        {id: 119, name: 'Any of the Domains in the Host'}
+        {id: 119, name: 'Any of the Domains in the Host'},
+        {id: 120, name: 'Any of the Domains in the Dark Six'},
+        {id: 121, name: 'Passion'},
+        {id: 122, name: 'Shadow'}
 
       ])
     })
