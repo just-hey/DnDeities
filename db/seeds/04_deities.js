@@ -144,6 +144,20 @@ active: true, url: '', symbol: 'The Sovereign of World and Wealth.', pantheon: 7
 active: true, url: '', symbol: 'A domino, or the Octogram in white and dark gray, representing both good fortune and bad. (The pattern on Olladra’s Octogram is reversed from the pattern on Aureon’s to avoid confusion, as the colors are very similar.)', pantheon: 7, gender: 'male'},
 {id: 131, name: 'Onatar', of: 'The Sovereign of Fire and Forge', alignment: 2, level: '', 
 active: true, url: '', symbol: 'Crossed hammer and tongs, or the Octogram in red and orange, representing the different shades of fire.', pantheon: 7, gender: 'male'},
+{id: 132, name: 'The Dark Six', of: 'Any of the Domains in the Dark Six', alignment: 8, level: '', 
+active: true, url: '', symbol: '', pantheon: 7, gender: 'n/a'},
+{id: 133, name: 'The Devourer', of: 'The Sovereign of Wave and Whelm', alignment: 8, level: '', 
+active: true, url: '', symbol: 'A bundle of five sharpened bones.', pantheon: 7, gender: 'male'},
+{id: 134, name: 'The Fury', of: 'The Sovereign of Rage and Ruin', alignment: 8, level: '', 
+active: true, url: '', symbol: 'A red-and-black, winged wyrm with a woman’s head and upper body.', pantheon: 7, gender: 'female'},
+{id: 135, name: 'The Keeper', of: 'The Sovereign of Death and Decay', alignment: 8, level: '', 
+active: true, url: '', symbol: 'A Khyber dragonshard in the general shape of a fang.', pantheon: 7, gender: 'male'},
+{id: 136, name: 'The Mockery', of: 'The Sovereign of Betrayal and Bloodshed', alignment: 8, level: '', 
+active: true, url: '', symbol: 'Five blood-spattered tools, laid out in the rough shape of the divine Octogram of the Host.', pantheon: 7, gender: 'male'},
+{id: 137, name: 'The Shadow', of: 'The Sovereign of Magic and Mayhem', alignment: 9, level: '', 
+active: true, url: '', symbol: 'A block of obsidian in the shape of a tower.', pantheon: 7, gender: 'n/a'},
+
+
 
 
       ])
