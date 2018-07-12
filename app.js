@@ -4,6 +4,7 @@ const app = express()
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const port = process.env.PORT || 3000
+const processErrorMessage = require('./errorHandling/errors.errorHandling')
 require('dotenv').config()
 
 app.use(cors())
@@ -21,6 +22,7 @@ app.use((req, res) => {
 })
 
 app.use((err, req, res, next) => {
+  err = processErrorMessage(err)
   const status = err.status || 500
   const message = err.message || 'Internal Error.'
   res.status(status).json({ message })
