@@ -140,7 +140,7 @@ exports.seed = function(knex, Promise) {
         {id: 136, name: 'The Mockery', of: 'The Sovereign of Betrayal and Bloodshed', alignment: 8, level: '', active: true, url: '', symbol: 'Five blood-spattered tools, laid out in the rough shape of the divine Octogram of the Host.', pantheon: 7, gender: 'male'},
         {id: 137, name: 'The Shadow', of: 'The Sovereign of Magic and Mayhem', alignment: 9, level: '', active: true, url: '', symbol: 'A block of obsidian in the shape of a tower.', pantheon: 7, gender: 'n/a'},
         {id: 138, name: 'The Traveler', of: 'The Sovereign of Chaos and Change', alignment: 6, level: '', active: true, url: '', symbol: 'An eight-pointed configuration of four crossed and rune-inscribed bones.', pantheon: 7, gender: 'n/a'},
-        {id: 139, name: 'The Blood of Vol', of: 'Those who follow the Blood of Vol seek immortality from within, and many do not know of or willingly support the secret ambitions of the cult’s leader', alignment: , level: '', active: true, url: '', symbol: '', pantheon: 7, gender: 'n/a'},
+        {id: 139, name: 'The Blood of Vol', of: 'Those who follow the Blood of Vol seek immortality from within, and many do not know of or willingly support the secret ambitions of the cult’s leader', alignment: 10, level: '', active: true, url: '', symbol: '', pantheon: 7, gender: 'n/a'},
       ])
     })
     .then(() => {
