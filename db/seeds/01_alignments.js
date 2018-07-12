@@ -10,7 +10,8 @@ exports.seed = function(knex, Promise) {
         {id: 6, name: 'Chaotic Neutral'},
         {id: 7, name: 'Lawful Evil'},
         {id: 8, name: 'Neutral Evil'},
-        {id: 9, name: 'Chaotic Evil'}
+        {id: 9, name: 'Chaotic Evil'},
+        {id: 10, name: 'Unaligned'}        
       ])
     })
     .then(() => {
