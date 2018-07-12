@@ -8,6 +8,7 @@ function viewAll() {
 function viewOne(id) {
     return knex('deities')
         .where({ id })
+        .first()
 }
 
 
