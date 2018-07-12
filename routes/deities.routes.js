@@ -4,6 +4,7 @@ const { DeitiesController } = require('../controllers')
 
 
 router.get('/', DeitiesController.viewAll)
+router.get('/:id', DeitiesController.viewOne)
 
 
 module.exports = router
