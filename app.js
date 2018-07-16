@@ -1,18 +1,18 @@
 const express = require('express')
-const cors = require('cors')
 const app = express()
+const cors = require('cors')
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const port = process.env.PORT || 3000
 const processErrorMessage = require('./errorHandling/errors.errorHandling')
+const { DeitiesRouter } = require('./routes')
 require('dotenv').config()
 
-app.use(cors())
 app.disable('x-powered-by')
+app.use(cors())
 app.use(morgan('dev'))
 app.use(bodyParser.json())
 
-const { DeitiesRouter } = require('./routes')
 app.use('/deities', DeitiesRouter)
  
 app.use((req, res) => { 
